@@ -1,18 +1,29 @@
 import './App.css'
 import NavBar from "./components/NavBar.jsx"
-import SideBar from "./components/SideBar.jsx"
-import Login from "./pages/Login.jsx"
-import SignUp from "./pages/SignUp.jsx"
+import SideBar from "./components/SideBar.tsx"
+import Login from "./pages/Login.tsx"
+import SignUp from "./pages/SignUp.tsx"
+import Crop from "./pages/Crop.tsx"
 
 function App() {
   
 
   return (
     <>
-      {/* <NavBar/>
-      <SideBar/> */}
+      
       {/* <Login/> */}
-      <SignUp/>
+      {/* <SignUp/> */}
+      <NavBar/>
+      <SideBar/>
+      <Crop/>
+      
+      
+      
+      
+      
+
+        
+
     </>
   )
 }

@@ -24,7 +24,7 @@ export default function NavBar() {
           <h2 className="text-[2.5rem] font-bold text-[#318eda]">
             Green Shadow
           </h2>
-          <div className="bg-white px-5 items-center gap-5 text-center text-[1.2rem] rounded-full sm-hidden hidden lg:block">
+          <div className="bg-[#F6F9F8] px-5 items-center gap-5 text-center text-[1.2rem] rounded-full sm-hidden hidden lg:block">
             <FontAwesomeIcon icon={faMagnifyingGlass} className="mr-3" />
             <input
               type="text"

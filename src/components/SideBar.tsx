@@ -6,7 +6,7 @@ export default function SideBar() {
   return (
     <>
       <nav
-        className="sidebar bg-[#F6F9F8] w-64 border-r h-screen relative left-[-16rem] lg:left-0 duration-100"
+        className="sidebar bg-[#F6F9F8] w-64 border-r absolute h-screen left-[-16rem] lg:left-0 duration-100"
         id="sidebar"
       >
         <ul className="space-y-4 pt-4">
@@ -54,7 +54,7 @@ export default function SideBar() {
             </span>
           </li>
           <li className="nav-item pt-16" id="logout">
-            <span className="flex items-center gap-3 font-bold mx-2 p-3 text-gray-500 hover:bg-red-500 hover:text-white active:bg-[#318eda] duration-200 rounded-md shadow-md">
+            <span className="flex items-center gap-3 font-bold mx-2 p-3 text-gray-500 hover:bg-red-500 hover:text-white active:bg-red-500 duration-200 rounded-md shadow-md">
             <FontAwesomeIcon icon={faRightFromBracket} />
               <span className="menu-title">Log Out</span>
             </span>
