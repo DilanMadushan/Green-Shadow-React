@@ -4,7 +4,7 @@ import { faMagnifyingGlass, faBars } from "@fortawesome/free-solid-svg-icons";
 export default function NavBar() {
   return (
     <>
-      <nav className="bg-[#f0f8ff] flex justify-between text-center items-center px-5 ">
+      <nav className="bg-white flex justify-between text-center items-center px-5 shadow-md z-999 ">
         <FontAwesomeIcon
           icon={faBars}
           className="text-[2rem] text-[#318eda] block lg:hidden"
@@ -24,7 +24,7 @@ export default function NavBar() {
           <h2 className="text-[2.5rem] font-bold text-[#318eda]">
             Green Shadow
           </h2>
-          <div className="bg-[#f0f8ff] px-5 items-center gap-5 text-center text-[1.2rem] rounded-full sm-hidden hidden lg:block">
+          <div className="bg-white px-5 items-center gap-5 text-center text-[1.2rem] rounded-full sm-hidden hidden lg:block">
             <FontAwesomeIcon icon={faMagnifyingGlass} className="mr-3" />
             <input
               type="text"
@@ -38,9 +38,9 @@ export default function NavBar() {
           <img
             src="https://hips.hearstapps.com/hmg-prod/images/mike-tyson-looks-on-prior-to-the-heavyweight-fight-between-news-photo-1716476934.jpg?crop=0.640xw:0.961xh;0.154xw,0.0391xh&resize=640:*"
             alt=""
-            className="w-[50px] h-[50px] rounded-[100%] my-2"
+            className="w-[50px] h-[50px] rounded-[100%] my-2 hidden sm:block"
           />
-          <div className="flex flex-col justify-center">
+          <div className=" justify-center hidden sm:block">
             <h5>Mike Tyson</h5>
             <p>Manger</p>
           </div>
