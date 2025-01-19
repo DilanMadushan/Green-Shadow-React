@@ -24,7 +24,6 @@ export default function SignUp() {
             </label>
             <select
               className=" outline-none block w-full bg-grey-lighter text-grey-darker border focus:ring-[#318eda] focus:border-[#318eda] rounded-lg h-10 px-4 md:w-full "
-              required="required"
               name="integration[city_id]"
               id="integration_city_id"
             >

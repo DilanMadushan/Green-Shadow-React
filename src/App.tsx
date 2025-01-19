@@ -1,31 +1,23 @@
-import './App.css'
-import NavBar from "./components/NavBar.jsx"
-import SideBar from "./components/SideBar.tsx"
-import Login from "./pages/Login.tsx"
-import SignUp from "./pages/SignUp.tsx"
-import Crop from "./pages/Crop.tsx"
+import "./App.css";
+import NavBar from "./components/NavBar";
+import SideBar from "./components/SideBar";
+import Crop from "./pages/Crop";
 
 function App() {
-  
-
   return (
     <>
       
-      {/* <Login/> */}
-      {/* <SignUp/> */}
-      <NavBar/>
-      <SideBar/>
-      <Crop/>
-      
-      
-      
-      
-      
+      <NavBar />
 
-        
-
+  
+      <div className="grid grid-flow-col grid-cols-1 lg:flex">
+        <SideBar />
+        <div className="flex-1">
+          <Crop />
+        </div>
+      </div>
     </>
-  )
+  );
 }
 
-export default App
+export default App;

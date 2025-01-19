@@ -4,11 +4,10 @@ import NavBar from "./NavBar";
 
 export default function SideBar() {
   return (
-    <>
-      <nav
-        className="sidebar bg-[#F6F9F8] w-64 border-r absolute h-screen left-[-16rem] lg:left-0 duration-100"
-        id="sidebar"
-      >
+    
+      <div>
+        <nav  className="bg-[#F6F9F8] w-[16rem] border-r relative h-full left-[-16rem] lg:left-0  duration-100" id="sidebar">
+
         <ul className="space-y-4 pt-4">
           <li className="nav-item " id="dashboard_nav">
             <span className="flex items-center gap-3 font-bold mx-2 p-3 text-gray-500 hover:bg-[#318eda] hover:text-white active:bg-[#318eda] duration-200 rounded-md shadow-md">
@@ -60,7 +59,8 @@ export default function SideBar() {
             </span>
           </li>
         </ul>
-      </nav>
-    </>
+
+        </nav>
+      </div>
   );
 }
