@@ -5,6 +5,7 @@ import Login from "./pages/Login";
 import Crop from "./pages/Crop";
 import Field from "./pages/Field";
 import LOG from "./pages/Log";
+import Staff from "./pages/Staff";
 
 function App() {
   return (
@@ -18,7 +19,8 @@ function App() {
         <div className="flex-1">
           {/* <Crop /> */}
           {/* <Field /> */}
-          <LOG/>
+          {/* <LOG/> */}
+          <Staff/>
         </div>
       </div>
     </>
