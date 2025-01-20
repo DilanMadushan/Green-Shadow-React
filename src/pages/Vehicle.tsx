@@ -4,6 +4,7 @@ import SideBar from "../components/SideBar";
 export default function Vehicle() {
   return (
     <div>
+        
       <div className="bg-blue-50 w-full">
         <div className="mx-10 pb-10">
           <h1 className="text-[#8dc6f5] font-bold text-[3rem] mb-10 pt-10">
