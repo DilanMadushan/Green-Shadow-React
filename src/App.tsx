@@ -7,6 +7,7 @@ import Field from "./pages/Field";
 import LOG from "./pages/Log";
 import Staff from "./pages/Staff";
 import Equipment from "./pages/Equipment";
+import Vehicle from "./pages/Vehicle";
 
 function App() {
   return (
@@ -22,7 +23,8 @@ function App() {
           {/* <Field /> */}
           {/* <LOG/> */}
           {/* <Staff/> */}
-          <Equipment/>
+          {/* <Equipment/> */}
+          <Vehicle/>
         </div>
       </div>
     </>
