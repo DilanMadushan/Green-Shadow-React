@@ -6,6 +6,7 @@ import Crop from "./pages/Crop";
 import Field from "./pages/Field";
 import LOG from "./pages/Log";
 import Staff from "./pages/Staff";
+import Equipment from "./pages/Equipment";
 
 function App() {
   return (
@@ -20,7 +21,8 @@ function App() {
           {/* <Crop /> */}
           {/* <Field /> */}
           {/* <LOG/> */}
-          <Staff/>
+          {/* <Staff/> */}
+          <Equipment/>
         </div>
       </div>
     </>
